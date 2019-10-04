@@ -1,0 +1,15 @@
+<ag-grid-angular
+    #agGridTable
+    [style.height]="height"
+    class="ag-theme-material table-with-margin"
+    (selectionChanged)="updateSelectedRow($event)"
+    [rowData]="rowData"
+    [animateRows]="true"
+    multiSortKey='ctrl'
+    [defaultColDef]="defaultColDef"
+    rowMultiSelectWithClick="true"
+    (gridReady)="gridReady()"
+    [getRowHeight]="getRowHeight"
+    (rowDoubleClicked)="dblClickHandler($event)"
+>
+</ag-grid-angular>
