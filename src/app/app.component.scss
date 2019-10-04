@@ -1,0 +1,42 @@
+.no-bg{
+  background-color: white;
+}
+
+mat-sidenav-container{
+  min-height: 100vh;
+  background-color: white;
+}
+
+mat-sidenav {
+  border-right: 1px solid gainsboro;
+}
+
+.mat-drawer-content{
+  margin-left: 20px;
+}
+mat-sidenav .material-icons{
+  margin-right:15px;
+  color:#000;
+}
+mat-sidenav .mat-list-item {
+  font-size:14px;
+  color:#000;
+}
+
+.menu :hover {
+  color:#cfcbd8;
+  cursor:pointer;
+}
+
+.mat-drawer-content {
+  margin-left: 0px;
+}
+.pointer{
+  cursor: pointer !important;
+}
+
+.homeButton
+{
+  color:#FFF;
+  text-decoration: none;
+}
